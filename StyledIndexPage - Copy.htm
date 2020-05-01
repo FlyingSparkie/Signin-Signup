@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <title>test me</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <script type="text/javascript" language="javascript">
+        function saySomething(message) {
+            planets = new Array("Mercury", "Venus", "Earth", "Mars")
+            for (i = 0; i < planets.length; i++)
+                alert(planets[i])
+            //alert(message);
+        }
+        </script>
+        <style type="text/css">
+        body {
+            background-color: #ffffff;
+            color: #000F00;
+            font-family: Georgia, serif;
+            font-size: 14px;
+            margin: 5px;
+            border-style: double;
+        }
+
+        a {
+            color: #FFFF66;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #00FF00;
+        }
+
+        a:hover {
+            color: #000099;
+            text-decoration: underline;
+        }
+
+        </style>
+    </head>
+
+    <body>
+        <!-- page content goes here -->
+        <table border="3" bgcolor="yellow" width="100%" colspan="1">
+            <tr>
+                <td border="3" colspan="3" align="center" width="200" height="50"><strong> Head Tronic</strong>
+                </td>
+                <form action="#">
+                    <input type="button" value="press me" onclick="saySomething('tis the day of all days')" />
+                </form>
+                <td align="right">
+                    <button>Log in</button> <button>Log out</button> <button>Sign up</button>
+                </td>
+            </tr>
+        </table>
+        <td>
+            <table border="1" cellpadding="25" bgcolor="red" align="center">
+                <tr align="center">
+                    <td align="center" bgcolor="powder-yellow"> <button>Cell 3 </button></td>
+                    <td align="right" bgcolor="powder-yellow"> <button> Cell 4 </button></td>
+                </tr>
+                <tr>
+                    <td align="left" bgcolor="green"> <button>Cell 5 </button></td>
+                    <td align="left" bgcolor="blue"><button>Cell 6</button></td>
+                </tr>
+            </table>
+        </td>
+        <table border="30" cellpadding="10" bgcolor="orange" width="100%" colspan="8">
+            <tr align="left" height="40 ">
+                <td bgcolor="yellow"> Cell 399 </td>
+                <td align="left"> Cell 499 </td>
+                <td> Cell 599 </td>
+                <td align="right"> Cell 6 </td>
+            </tr>
+            <tr align="left" colspan="4" height="40">
+                <td> Cell 500</td>
+                <td align="right" bgcolor="red"> Cell 600 </td>
+                <td> Cell 700 </td>
+                <td align="right"> Cell 800 </td>
+            </tr>
+            <tr align="right" height="40 ">
+                <td> Cell 90 </td>
+                <td align="left"> Cell 10 </td>
+                <td bgcolor="powderblue"> Cell 110 </td>
+                <td align="left"> Cell 120 </td>
+            </tr>
+            <tr>
+                <td colspan="4 " align="center " height="60 "> <button>Cell 100 </button></td>
+            </tr>
+        </table>
+    </body>
+
+</html>

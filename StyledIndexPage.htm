@@ -21,7 +21,25 @@
             font-family: Georgia, serif;
             font-size: 14px;
             margin: 5px;
-            border-style: double;
+            border-style: none;
+        }
+        
+        .header {
+            background-color: #ffffff;
+            color: #ff0F00;
+            font-family: Georgia, serif;
+            font-size: 20px;
+            margin: 5px;
+            border-style: none;
+        }
+        
+        .buttons {
+            background-color: #ffffff;
+            color: #ff0F00;
+            font-family: Georgia, serif;
+            font-size: 20px;
+            margin: 5px;
+            border-style: inset;
         }
         
         a {
@@ -48,60 +66,88 @@
     </a>-->
 
     <!-- page content goes here -->
-    <table border="3 " bgcolor="green " width="100% " colspan="1 ">
-        <tr>
-            <td border="3 " colspan="3 " align="center " width="200 " height="50 "><strong> Head Tronic</strong>
-            </td>
-            <!--<form action="# ">
+    <div class="header">
+        <table border="0" bgcolor="powderblue" height="100%" width="100% " colspan="2">
+            <tr>
+                <td border="4" colspan="5 " align="center " width="100% " height="200 ">
+                    <h1><strong>Head Tronic</strong></h1>
+                </td>
+    </div>
+    <!--<form action="# ">
                 <input type="button" value="press me " onclick="saySomething( 'tis the day of all days') " />
             </form>-->
-            <td align="right ">
-                <a>
-                    <div>
-                        <img src="./img/" onmouseover="src='./img/login_top.png'" onmouseout="src='./img/navbarmain_B1.gif'" width="100">
-                        <img src="./img/navbarmain_B2.gif" onmouseover="src='./img/navbarmain_B2_over.gif'" onmouseout="src='./img/navbarmain_B2.gif'" width="100">
-                        <img src="./img/navbarmain_B3.gif" onmouseover="src='./img/navbarmain_B3_over.gif'" onmouseout="src='./img/navbarmain_B3.gif'" width="100">
-                        <img src="./img/navbarmain_B4.gif" onmouseover="src='./img/navbarmain_B4_over.gif'" onmouseout="src='./img/navbarmain_B4.gif'" width="100">
-
-                    </div>
-                    <!-- </a><button>Log in</button> <button>Log out</button> <button>Sign up</button>-->
-            </td>
-        </tr>
+    <td>
+        <a>
+            <img src="./img/Button1.gif" onmouseover="src='./img/Button1MouseOver.gif'" onmouseout="src='./img/Button1.gif'" width="100">
+            <img src="./img/Button2.gif" onmouseover="src='./img/Button2MouseOver.gif'" onmouseout="src='./img/Button2.gif'" width="100">
+            <img src="./img/Button3.gif" onmouseover="src='./img/Button3MouseOver.gif'" onmouseout="src='./img/Button3.gif'" width="100">
+            <img src="./img/Button4.gif" onmouseover="src='./img/Button4MouseOver.gif'" onmouseout="src='./img/Button4.gif'" width="100">
+        </a>
+    </td>
+    </tr>
     </table>
     <td>
-        <table border="1 " cellpadding="25 " bgcolor="red " align="center ">
-            <tr align="center ">
-                <td align="center " bgcolor="powder-yellow "> <button>Cell 3 </button></td>
-                <td align="right " bgcolor="powder-yellow "> <button> Cell 4 </button></td>
-            </tr>
-            <tr>
-                <td align="left " bgcolor="green "> <button>Cell 5 </button></td>
-                <td align="left " bgcolor="blue "><button>Cell 6</button></td>
-            </tr>
+        <table bgcolor="green" border="1 " width="100% " colspan="2 ">
+            <div class="header">
+                <tr>
+                    <td bgcolor="powder-blue "> <button>Cell 11</button></td>
+                    <td bgcolor="powder-blue"> <button> Cell 12</button></td>
+            </div>
+            <div class="header">
+                <table border="2 " align="center" bgcolor="green " width="100%" colspan="4 ">
+                    <tr>
+                        <td bgcolor="powder-yellow "> <button>Cell 1</button></td>
+                        <td " bgcolor=" yellow "> <button> Cell 2</button></td>
+                        <td  bgcolor=" green "> <button>Cell 3</button></td>
+                        <td  bgcolor=" blue "><button>Cell 4</button></td>
+                        <td  bgcolor=" green "> <button>Cell 5</button></td>
+                        <td  bgcolor=" blue "><button>Cell 6</button></td>
+
+                    </tr>
+                </table>
+            </div>
+          
+    </td>
+    <td>
+
+        <table>
+            <div class=" header ">
+                <border=" 5 " colspan=" 4 " cellpadding=" 25 " width=" 100 " bgcolor=" yellow " align=" center ">
+                    <tr>
+                        <td bgcolor=" green "> <button>Cell 7</button></td>
+                        <td bgcolor=" blue "><button>Cell 8</button></td>
+                        <td bgcolor=" powder-yellow "> <button>Cell 9</button></td>
+                        <td bgcolor=" yellow "> <button> Cell 1</button></td>
+                        <td bgcolor=" green "> <button>Cell 1</button></td>
+                        <td bgcolor=" blue "><button>Cell 1</button></td>
+                    </tr>
+            </div>
         </table>
     </td>
-    <table border="30 " cellpadding="10 " bgcolor="orange " width="100% " colspan="8 ">
-        <tr align="left " height="40 ">
-            <td bgcolor="yellow "> Cell 399 </td>
-            <td align="left "> Cell 499 </td>
-            <td> Cell 599 </td>
-            <td align="right "> Cell 6 </td>
-        </tr>
-        <tr align="left " colspan="4 " height="40 ">
-            <td> Cell 500</td>
-            <td align="right " bgcolor="red "> Cell 600 </td>
-            <td> Cell 700 </td>
-            <td align="right "> Cell 800 </td>
-        </tr>
-        <tr align="right " height="40 ">
-            <td> Cell 90 </td>
-            <td align="left "> Cell 10 </td>
-            <td bgcolor="powderblue "> Cell 110 </td>
-            <td align="left "> Cell 120 </td>
-        </tr>
-        <tr>
-            <td colspan="4 " align="center " height="60 "> <button>Cell 100 </button></td>
-        </tr>
+    <div class=" buttons ">
+        <table border=" 3 " cellpadding=" 1 " bgcolor=" orange " width=" 100% " colspan=" 8 ">
+            <tr align=" left " height=" 40 ">
+                <td bgcolor=" yellow "> Cell 399 </td>
+                <td align=" left "> Cell 499 </td>
+                <td> Cell 599 </td>
+                <td align=" right "> Cell 6 </td>
+            </tr>
+            <tr align=" left " colspan=" 4 " height=" 40 ">
+                <td> Cell 500</td>
+                <td align=" right " bgcolor=" red "> Cell 600 </td>
+                <td> Cell 700 </td>
+                <td align=" right "> Cell 800 </td>
+            </tr>
+    </div>
+    <tr align=" right " height=" 40 ">
+        <td> Cell 90 </td>
+        <td align=" left "> Cell 10 </td>
+        <td bgcolor=" powderblue "> Cell 110 </td>
+        <td align=" left "> Cell 120 </td>
+    </tr>
+    <tr>
+        <td colspan=" 3 " align=" right " height=" 60 "> <button>Cell 100 </button></td>
+    </tr>
     </table>
 </body>
 

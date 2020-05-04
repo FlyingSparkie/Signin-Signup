@@ -4,6 +4,7 @@ body {
     font-size: 16px;
     margin: 10px;
 }
+
 a {
     color: #000000;
 }
@@ -16,43 +17,43 @@ a:hover {
     color: #792acc;
 }
 
-.navbar{
-    background-color:#1ac;
+.navbar {
+    background-color: #1ac;
     border-bottom: #999;
-    border-left:#999;
+    border-left: #999;
     border-width: 0 0 thin thin;
     border-style: none none groove groove;
-    display:block;
-    display:inline table;
+    display: block;
+    display: inline table;
     float: center;
     margin: 1 10 0 10px;
-
     padding: 0 10px 0 10px;
-    width:200px;
+    width: 200px;
 }
 
-.hdlogin{
-    background-color:#ccc;
+.hdlogin {
+    background-color: #ccc;
     border-bottom: #999;
-    border-left:#999;
-}
-.nav-header-main{
-    background-color:#ccc;
-    border-bottom: #999;
-    border-left:#999;
-
-}
-.signup{
-    <!--background-color:#ccc; -->
-    border-bottom: #999;
-    border-left:#999;
+    border-left: #999;
 }
 
-.navbarButton{
-    width:auto;
-    margin-left:4%;
+.nav-header-main {
+    background-color: #ccc;
+    border-bottom: #999;
+    border-left: #999;
+}
+
+.signup {
+    background-color: #ccc;
+    border-bottom: #999;
+    border-left: #999;
+}
+
+.navbarButton {
+    width: auto;
+    margin-left: 4%;
     margin-right: 4%;
     margin-top: 9px;
-    padding:0px;
-    cursor:pointer;]
+    padding: 0px;
+    cursor: pointer;
 }
